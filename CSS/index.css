@@ -15,12 +15,6 @@ header{
     font-style: italic bold;
 }
 
-.logo{
-    padding-bottom: 30px;
-    padding-top: 0px;
-    margin margin-top: 1px;
-}
-
 center{
     padding-top:10px ;
     padding-bottom:10px ;
@@ -60,7 +54,7 @@ nav{
 
 body{
     font-family:     font-family: 'Plus Jakarta Sans'; 
-    background-image: url("../Multimedia/BACKGROUND-IMAGE-GALAXY.jpg");
+    background-image: url("../Multimedia/backgroundimageok.png");
     background position: center;
     background-repeat: no-repeat;
     background-attachment:fixed;
