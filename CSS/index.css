@@ -7,6 +7,10 @@ header{
     padding bottom: 0px;
 }
 
+.headernotindex{
+    direction: ltr;
+}
+
 .h1{
     text-align: left;
     margin-left: 10px;
@@ -14,6 +18,7 @@ header{
     padding: 20px 20 px;
     font-style: italic bold;
 }
+
 
 center{
     padding-top:10px ;
@@ -53,12 +58,17 @@ nav{
 }
 
 body{
-    font-family:     font-family: 'Plus Jakarta Sans'; 
+    font-family: 'Plus Jakarta Sans'; 
     background-image: url("../Multimedia/backgroundimageok.png");
     background position: center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     color: white;
+
+}
+
+.bodynotindex{
+    background: linear-gradient(25deg,rgb(143, 33, 115,1), transparent);
 
 }
 
