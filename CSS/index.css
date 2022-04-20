@@ -108,6 +108,12 @@ footer{
     list-style-type:none;
 }
 
+.footernotindex{
+    background-image: url("../Multimedia/BACKGROUND-IMAGE-GALAXY.jpg");
+    padding: auto;
+    margin: auto;
+}
+
 
 
 /* Color Theme Swatches in Hex */
