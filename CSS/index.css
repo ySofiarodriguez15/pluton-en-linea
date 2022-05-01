@@ -1,14 +1,14 @@
+*{
 
+}
 header{
     font: size 30px;
     font-style:bold;
     padding:auto;
-    margin-bottom: 325px;
 }
 
-.headernotindex{
-    direction: ltr;
-    margin:auto;
+.logonotindex{
+    margin: auto;
 }
 
 .h1{
@@ -24,7 +24,7 @@ header{
 nav{
     font-size: 0,3cm;
     font-style: italic;
-    margin: auto;
+    margin-top:320px;
 }
 
 .menu{
@@ -45,7 +45,7 @@ nav{
 
 .li{
     display: inline-block;
-    width: 18%;
+    width: 23%;
     position: relative;
     font-size: 18px;
     padding:auto;
@@ -109,20 +109,31 @@ footer{
 
 
 .logonotindex{
-    border-radius: 36px;
-    margin-left: 15px;
+    border-radius: 60px;
     height: 86px;
+    float:right;
+    margin-top: 0 auto;
 }
 
 /* parte de quienes somos */
 
 .headerquienessomos{
     margin: auto;
-    margin-bottom: 100px;
 }
 .mainquienessomos{
     display: flex;
     justify-content: flex-end;
+}
+.h1quienessomos{
+    font-size:37px;
+    margin-left:70px;
+
+}
+
+.articlequienessomos{
+    margin: 65px;
+    margin-left: auto;
+    margin-top: 60px;
 }
 
 .asidequienessomos{
@@ -132,6 +143,7 @@ footer{
 
 .tituloquienessomos{
     margin-left: 60px;
+    margin-top: auto;
 }
 
 .pquienessomos{
@@ -145,6 +157,7 @@ footer{
     list-style-type: none;
     text-align: center;
     line-height: 50px;
+    font-size: 17px;
 }
 
 /* parte de productos y servicios */
@@ -177,14 +190,11 @@ footer{
 
 .parrafoproductos{
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
 
 }
 
-.hrheaderproductos{
-    margin-bottom: 25px;
-}
 
 .headerproductos{
     margin-bottom: 25px;
@@ -195,7 +205,7 @@ footer{
     text-transform: capitalize;
     font-size: 45px;
     margin-bottom: 105px;
-    margin-top: 15px;
+    margin-top: 55px;
 }
 
 .tituloproducto{
@@ -224,6 +234,64 @@ footer{
 .h3productos{
     padding: 10px;
     text-align: center;
+}
+
+/* astrologia a diario*/
+
+.h1astroadiario{
+    text-align: center;
+    font-size: 27px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.headerastroadiario{
+    margin: 10px;
+}
+
+.h2astroadiario{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom:50px;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.articuloastroadiario{
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.imgastroadiario{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.pastroadiario{
+    text-align: justify;
+    margin-left:90px;
+    margin-right:90px;
+    margin-top: 55px;
+}
+
+/*parte de CONTACTO*/
+.container{
+    margin-top:25px
+}
+.headercontacto{
+ margin-bottom: 45px;   
+}
+
+.dondenosencontramos{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:arial;
+    margin-top:85px;
+}
+
+iframe{
+    margin-bottom: 65px;
 }
 /* Color Theme Swatches in Hex */
 .plutonenlinea-1-hex { color: #7B90D4; }
