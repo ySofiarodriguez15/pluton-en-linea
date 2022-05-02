@@ -7,6 +7,28 @@ header{
     padding:auto;
 }
 
+.ulfooter{
+    display: inline-block;
+    text-align: center;
+}
+
+.text-muted{
+    text-align:center;
+    font-size:22px;
+    color:white;
+    font-style:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ms-3{
+    list-style-type: none;
+    justify-content: center;
+    display: inline;
+}
+.iconofooter{
+    width:30px;
+    margin:5px 5px;
+}
 .logonotindex{
     margin: auto;
 }
@@ -240,7 +262,7 @@ footer{
 
 .h1astroadiario{
     text-align: center;
-    font-size: 27px;
+    font-size: 42px;
     text-decoration: underline;
     margin-top: 10px;
 }
@@ -279,9 +301,6 @@ footer{
 .container{
     margin-top:25px
 }
-.headercontacto{
- margin-bottom: 45px;   
-}
 
 .dondenosencontramos{
     text-align: center;
@@ -293,6 +312,25 @@ footer{
 iframe{
     margin-bottom: 65px;
 }
+.sectioncontacto{
+    line-height:43px;
+    margin:auto;
+    display:grid;
+    cursor:pointer;
+    
+
+}
+label{
+    font-size:20px;
+}
+
+.form-control{
+    background-color:#b3bfe8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+
 /* Color Theme Swatches in Hex */
 .plutonenlinea-1-hex { color: #7B90D4; }
 .plutonenlinea-2-hex { color: #87C27A; }
