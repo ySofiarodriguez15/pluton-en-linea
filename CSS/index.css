@@ -47,6 +47,8 @@ nav{
     font-size: 0,3cm;
     font-style: italic;
     margin-top:320px;
+    justify-content:center;
+    margin-right:30px;
 }
 
 .menu{
@@ -94,7 +96,12 @@ body{
     background-repeat: no-repeat;
     background-attachment:fixed;
     color: white;
+    margin:auto;
+    padding:auto;
+}
 
+::-webkit-scrollbar{
+    display:none;
 }
 
 .bodynotindex{
@@ -112,6 +119,31 @@ body{
 
 }
 
+.wrapper{
+    display:grid;
+    grid-gap:auto;
+    grid-auto-rows: 2fr 1fr;
+    grid-template-columns: 1fr;
+}
+.uno{
+    grid-column: 1;
+    grid-row:1/4;
+}
+
+.imagenarticulo1{
+    margin: 15px 15px;
+    border-style: ridge;
+    border-color: grey;
+}
+
+.dos{
+    grid-column: 2;
+    grid-row: 1/5;
+}
+.tres{
+    grid-column: 2;
+    grid-row: 3/5;
+}
 h2{
     font-size: 40px;
     font-style: oblique;
@@ -315,19 +347,34 @@ iframe{
 .sectioncontacto{
     line-height:43px;
     margin:auto;
-    display:grid;
+    display:-moz-grid-line;
     cursor:pointer;
-    
 
+}
+
+.form-controltext{
+    margin-top:10px;
+    background-color:#b3bfe8;
+    width:400px;
+    height: 175px;
 }
 label{
     font-size:20px;
 }
 
+.mb-350{
+    display: inline-block;
+    justify-content:space-around;
+}
 .form-control{
     background-color:#b3bfe8;
     font-family: 'Times New Roman', Times, serif;
     font-size:20px;
+    width:250px;
+    height:20px;
+}
+.completardatospersonales{
+    justify content:center;
 }
 
 
