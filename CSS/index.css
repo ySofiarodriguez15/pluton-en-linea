@@ -219,12 +219,18 @@ footer{
 .foto1productos{
     width: 500px;
     justify-content: center;
-
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
+    border-style: solid;
 }
 
 .foto2productos{
     width: 435px;
     justify-content: center;
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
 }
 
 .mainproductos{
