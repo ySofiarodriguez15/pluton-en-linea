@@ -7,13 +7,14 @@ body{
 }
 nav{
     background-color:#A82D69;
-    direction:rtl;
+    direction:ltr;
     border-top: 16px solid #;
     margin: 65px auto;
+    margin-right: 3px;
 }
 
 
-.navbar navbar-expand-xl navbar-dark bg-dark a:hover{
+nav a:hover{
     background-color: #73f574;
     color: #E7FAD0;
     border-radius: 18px;
